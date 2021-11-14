@@ -34,32 +34,116 @@ body {
 /* ----- zde začni psát vlastní CSS ----- */
 
 
-img {
-    width:50px;
-    height:50px;
-}
-
 
 /* menu v hlavičce */
+
 .menu {
     display: flex;
-    padding: 1rem 2rem;
+    padding: 1rem;
     justify-content: flex-start;
 }
 
 
 .menu a{
-    color: black;
+    color: #25133d;
     display: flex;
     margin: 0 20px;
     text-decoration: none;
 }
 
-a:hover,
-a:focus,
-a:active {
+.menu a:hover,
+.menu a:focus,
+.menu a:active {
     font-weight: bolder;
 }
 
 
 /* část super appka */
+
+.appka {
+    background-image: url('images/pozadi.jpg');
+    background-size: 100% 100%;
+    color: white;
+    background-repeat: no-repeat;
+    padding-left: 2rem;
+   
+}
+
+.slogan {
+    font-weight:normal;
+    font-size: 60px;
+    margin:0;
+    padding-top: 10px;
+    
+}
+
+.text {
+    font-weight: lighter;
+    font-size: 30px;
+    padding: 1rem 0;
+}
+
+.tlacitko {
+    display: block;
+    padding: 3rem 0;
+}
+
+.tlacitko a {
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 1rem;
+    text-decoration: none;
+    color: white;
+    margin-right: 1rem;
+}
+
+.tlacitko a:hover,
+.tlacitko a:focus,
+.tlacitko a:active {
+    background-color: #48418e;
+}
+
+.appka img {
+    float: right;
+    max-height: 402px;
+    padding-top: 20px;
+
+
+}
+
+/* část možnosti */
+
+.funkce {
+    display: flex;
+    text-align: center;
+    padding: 1rem;
+}
+
+ul {
+    list-style-type: none;
+    margin: 1rem;
+}
+
+.moznosti img {
+    width:50px;
+    height:50px;
+}
+
+h3 {
+    color:#48418e;
+}
+
+li {
+    margin: 0 20px;
+}
+
+
+/* část patička */
+
+.paticka {
+    background-color: #48418e;
+    text-align: center;
+    padding: 5px;
+    color: white;
+    font-size: smaller;
+}
